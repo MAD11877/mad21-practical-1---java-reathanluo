@@ -45,15 +45,15 @@ public class Question5
      */
      
     Scanner in = new Scanner(System.in);
-    System.out.print("Please enter the number of integers that you will enter later:");
+    // System.out.print("Please enter the number of integers that you will enter later:");
     ArrayList<Integer> aList = new ArrayList<Integer>();
     int number = in.nextInt();
 
     for(int a = 0;a<number;a++){
-      System.out.print("Enter number:");
+      // System.out.print("Enter number:");
       int b = in.nextInt();
       aList.add(a, b);
     }
-    System.out.print("The mode is:" + mode(aList,number));
+    System.out.print(mode(aList,number));
   }
 }
